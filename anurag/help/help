@@ -1,0 +1,96 @@
+ctrl + shift + v => show md file view
+
+
+
+1. Headers
+
+# H1 - Largest Heading
+## H2 - Second Largest Heading
+### H3 - Third Largest Heading
+#### H4
+##### H5
+###### H6 - Smallest Heading
+
+
+
+2. Paragraphs
+
+This is a paragraph. Markdown will automatically handle text wrapping.
+
+
+
+3. Bold and Italics
+
+Bold: Use double asterisks ** or double underscores __.
+Italics: Use single asterisks * or single underscores _.
+Bold and Italics: Use triple asterisks ***.
+
+
+**This is bold text**  
+*This is italicized text*  
+***This is bold and italicized text***
+
+
+
+4. Lists
+
+Ordered Lists (Numbered)
+1. First item
+2. Second item
+3. Third item
+
+Unordered Lists (Bullet points)
+- Item 1
+- Item 2
+  - Sub-item 1
+  - Sub-item 2
+
+
+
+5. Links
+
+Create hyperlinks using [text](URL).
+[Visit GitHub](https://github.com)
+
+
+
+
+6. Images
+
+Add images using the same syntax as links, but with an exclamation mark ! at the beginning: ![alt text](image URL).
+![Markdown Logo](https://markdown-here.com/img/icon256.png)
+
+local image
+![My Local Image](./path-to-image/myimage.png)
+
+
+
+7. Code Blocks
+
+Inline code
+This is `inline code`.
+
+Code blocks
+i) ```javascript
+function greet() {
+  console.log("Hello, World!");
+}
+```
+ii) > This is a blockquote. It’s used for quotations.
+
+
+
+9. Tables
+
+Tables are created using pipes | and hyphens -. Align text using colons :.
+
+| Header 1 | Header 2 |
+|----------|----------|
+| Row 1    | Data     |
+| Row 2    | Data     |
+
+
+
+10. Horizontal Rule
+
+---
