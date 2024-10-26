@@ -2,7 +2,7 @@
 
 - Node.JS me agar koe code write kar te he to vah code ka scope Local hota he.
 
-      - code:-
+- code:-
 
   ![](./img/ex-1.png)
 
