@@ -2,7 +2,7 @@
 
 - when i install Node.JS these are built-in modules come with Node.JS like `fs`, `http`, `path`.
 
-- **`built-in modules is not do all thing so we used Packages`**
+- **`built-in modules is not do all thing so we used Packages`** (this thing learn inside 04_Type_of_Package_System)
 
 ---
 
@@ -34,9 +34,12 @@
 
 ```cmd
 npm init
+npm init -y
 ```
 
 > this command do one `package.json` file for handle packages.
+
+![](./img/package_json_file.png)
 
 ---
 
@@ -105,13 +108,13 @@ npm i validator@13.12.0
 
 **`summary`**
 
+[youTube link](https://www.youtube.com/watch?v=jHDhaSSKmB0)
+
 > what is `package.json` and what do ?
 
 - when you install any package this file is created.
 
 - this file handle `meta date` about the project, list of packages we used in side this project it's called `Dependencies`, `scripts` how to run this project this type information, `DevDependencies` only needed during development. They are typically tools or libraries that help you write and test code, but are not required for the app to run in production.
-
-[youTube link](https://www.youtube.com/watch?v=jHDhaSSKmB0)
 
 > what is node_modules and what do ?
 

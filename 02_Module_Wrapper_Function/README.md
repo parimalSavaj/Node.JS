@@ -22,4 +22,4 @@
 
 normally hamara Node.JS code es function k under rakh kar run hojata he, jiske karan Other variable Local Scope me aa jate he. ( (function{})() se immediately invoked function expressions kah te he, call it's self. )
 
-- ab Node.JS hamara code ko ech module wrapper function ke under dal kar code run kar te he, **to hame Other variable ka access he normal code me bhi.!!**
+- ab Node.JS hamara code ko ech module wrapper function ke under dal kar code run kar te he, **to hame Other variable ka access he normal code me bhi.!!** but not in side the import/ export module.

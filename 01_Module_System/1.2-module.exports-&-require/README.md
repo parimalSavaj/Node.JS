@@ -1,15 +1,3 @@
-# What is module ?
-
-- module aa small code he jo ham export kar k other file me used kar sak te he.
-
----
-
----
-
-## Type of the module in side the Node.JS ?
-
-- `Two` way to used module in side the Node.JS.
-
 ### `1.` module.exports and require
 
 > This way is call `CommonJS module system.`
@@ -50,29 +38,8 @@ console.log(getNotes());
 
   - module file me last me module.exports ki jo value hoti he vah require function return kar ta he.
 
-### `2.` import and export
-
-> This Way is call `ES6 module system.`
-
-- open your `package.JSON` file and add `"type":"module"` now you used import/ export just like ES6.
-
-```JS
-const fun = function () {
-  return "Your notes...";
-};
-
-export { fun };
-
-
-import { fun } from "./notes.js";
-console.log(fun());
-
-```
+  - this method for module is synchros the code. not import/export file.
 
 ---
 
 ---
-
-#### why used module?
-
-modules used kar ne se hamara code look like Clean code. and more readable.
