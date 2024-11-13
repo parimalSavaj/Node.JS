@@ -20,8 +20,25 @@
 
 > **first know one thing V8 Engine not wait any async task, for async task handle Libuv**
 
-- Node inside Libuv
-![](./img/img_Inside_Libuv.png)
+- Node inside Libuv demo image.
+  ![](./img/img_Inside_Libuv.png) 
 
-- Event Loop
-![](./img/event_Loop.png)
+- Event Loop working image.
+  ![](./img/event_Loop.png)
+
+- explain Libuv works 
+
+    - first see the Libuv image; see inside have event loop, thread pool and callback queues.
+
+    - mainly see event loop and callback queues thread pool see later.
+
+    - see second image and event loop running like process.nextTick() than promise callbacks than timer like setTimeout and setInterval than again to process.nextTick and promise after this go poll in side poll have I/O callbacks, fs, crypto, http.get etc... after do this again go inner loop process.nextTick and promise; after check, inside this check have setImmediate after again go process and promise then last close inside this socket and on("close"), this loop run continuity.
+
+    - if not any callback queues so go poll step and wait for any poll callback do. and running agent with start with poll step....
+
+---
+
+---
+
+## Thread pool
+
